@@ -1,34 +1,48 @@
 {
-    "name": "frontend",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "@testing-library/jest-dom": "^4.2.4",
-        "@testing-library/react": "^9.3.2",
-        "@testing-library/user-event": "^7.1.2",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
-        "react-scripts": "^3.4.4"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    }
+  "name": "amazona-website",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.4"
+  },
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "1. Introduction to this course    1. what you will build    2. what you will learn    3. who are audiences 2. Install Tools    1. Code Editor    2. Web Browser    3. VS Code Extension 3. Website Template    1. Create amazona folder    2. create template folder    3. create index.html    4. add default HTML code    5. link to style.css    6. create header, main and footer    7. style elements 4. Display Products    1. create products div    2. add product attributes    3. add link, image, name and price 5. Create React App    1. npx create-react-app frontend    2. npm start    3. Remove unused files    4. copy index.html content to App.js    5. copy style.css content to index.css    6. replace class with className",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arikey-pixel/Amazona_E-Commerce_Web_App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arikey-pixel/Amazona_E-Commerce_Web_App/issues"
+  },
+  "homepage": "https://github.com/arikey-pixel/Amazona_E-Commerce_Web_App#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
